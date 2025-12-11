@@ -31,11 +31,11 @@ $$b = b - \alpha \cdot \frac{\partial J}{\partial b}$$
 ## 💻 Usage
 
 ```python
-from src.linear_regression import LinearRegression
+from src.linear_regression import CustomLinearRegression
 import numpy as np
 
 # 1. Initialize Model
-model = LinearRegression(learning_rate=0.01, iterations=1000)
+model = CustomLinearRegression(learning_rate=0.01, iterations=1000)
 
 # 2. Train
 model.fit(X_train, y_train)
